@@ -1,0 +1,99 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header,
+footer,
+h2 {
+    background-color: rgb(38, 96, 104);
+    color: white;
+    text-align: center;
+}
+
+#coursetitle {
+    display: block;
+    text-align: center;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    list-style: none;
+}
+
+.navigation a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100px;
+    max-height: 150px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.card {
+    grid-column: 1 / 2, 2 / 3;
+    border: 2px solid rgb(201, 198, 198);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 10px;
+    
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    padding: 10px;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h3 {
+    border-bottom: 1px solid rgb(201, 198, 198);
+    width: 400px;
+}
+
+.profile-image {
+    display: inline;
+    float: right;
+}
+
+.ghana-flag {
+    display: inline;
+    float: left;
+    text-align: center;
+}
+
+main {
+    width: fit-content;
+    padding: 1rem;
+    height: fit-content;
+}
+
+p {
+    padding: 10px;
+}
+.card a{
+    justify-content: center;
+}
