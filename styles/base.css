@@ -11,8 +11,15 @@ h2 {
     color: white;
     text-align: center;
 }
+header {
+    margin: 0 auto;
+}
+footer {
+    padding: 0.5rem;
+    font-size: smaller;
+}
 
-#coursetitle {
+#course-title {
     display: block;
     text-align: center;
     font-size: larger;
