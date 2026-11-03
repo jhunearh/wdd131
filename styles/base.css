@@ -1,5 +1,6 @@
-* {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 header,
@@ -95,6 +96,6 @@ main {
 p {
     padding: 10px;
 }
-.card a{
-    justify-content: center;
+.card ul {
+    margin-top: 3rem;
 }
