@@ -18,9 +18,10 @@ h2 {
 .navigation ul {
     display: flex;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.397);
+    background-color: rgb(29, 29, 29);
     color: white;
     list-style: none;
+    padding: 0.2rem;
 }
 
 .navigation a:hover {
