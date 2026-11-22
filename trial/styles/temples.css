@@ -1,0 +1,22 @@
+* {
+    font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+}
+header, footer {
+    background-color: rgb(129, 173, 173);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+header {
+    display: flex;
+}
+nav {
+    
+    
+}
+nav a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+}
