@@ -23,7 +23,7 @@ header {
 
 /* Hidden on mobile by default */
 .navigation { display: flex; }
-.navigation.open { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background-color: #4a0072; }
+.navigation.open { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background-color: rgb(38, 96, 104); }
 
 .navigation a {
   color: white;
@@ -32,8 +32,8 @@ header {
   text-align: center;
 }
 .navigation a:hover {
-  background-color: #ffcc00;
-  color: #4a0072;
+  background-color: rgb(15, 45, 49);
+  color: white;
 }
 
 main { max-width: 1000px; margin: 0 auto; padding: 1rem; }
